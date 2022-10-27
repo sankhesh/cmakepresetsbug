@@ -1,0 +1,18 @@
+{
+  "version": 4,
+  "include":
+  [
+    "ParentCMakePresets.json"
+  ],
+  "configurePresets": [
+    {
+      "name": "veryspecific",
+      "displayName": "veryspecific",
+      "inherits": "specific",
+      "cacheVariables":
+      {
+        "CMAKE_BUILD_TYPE":"RelWithDebInfo"
+      }
+    }
+  ]
+}
